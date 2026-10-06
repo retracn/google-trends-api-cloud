@@ -1,0 +1,16 @@
+{
+  "name": "google-trends-api-cloud",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for the google-trends-api npm package: no 429s from servers, and dailyTrends and realTimeTrends work again. Same methods, options and JSON output.",
+  "main": "index.js",
+  "files": ["index.js", "index.d.ts"],
+  "types": "index.d.ts",
+  "scripts": { "test": "node --test test/trends.test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "google-trends-api": "^4.9.2" },
+  "keywords": ["google-trends-api", "google-trends", "google", "trends", "dailytrends", "realtimetrends", "serverless", "apify"],
+  "repository": { "type": "git", "url": "https://github.com/retracn/google-trends-api-cloud.git" },
+  "homepage": "https://github.com/retracn/google-trends-api-cloud#readme",
+  "author": "AutomationNation",
+  "license": "MIT"
+}
